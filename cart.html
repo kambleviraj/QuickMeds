@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart - QuickMeds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>Your Cart 🛒</h1>
+        <button onclick="goHome()">Home</button>
+    </nav>
+
+    <!-- Cart Items -->
+    <section id="cart-items" class="products"></section>
+
+    <!-- Total -->
+    <h2 id="total" style="text-align:center;"></h2>
+
+    <!-- Checkout Button -->
+    <div style="text-align:center; margin:20px;">
+        <button onclick="goToCheckout()">Proceed to Checkout</button>
+    </div>
+
+    <script src="cart.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Checkout 💳</h1>
+</nav>
+
+<div class="checkout-container">
+    <form class="checkout-form" onsubmit="placeOrder(event)">
+        
+        <h2>Delivery Details</h2>
+
+        <input type="text" placeholder="Full Name" required>
+        
+        <input type="text" placeholder="Address" required>
+
+        <label>Upload Prescription</label>
+        <input type="file">
+
+        <label>Payment Method</label>
+        <select>
+            <option>UPI</option>
+            <option>Card</option>
+            <option>Cash on Delivery</option>
+        </select>
+
+        <button type="submit">Place Order</button>
+
+    </form>
+</div>
+
+<script src="checkout.js"></script>
+
+</body>
+</html>
